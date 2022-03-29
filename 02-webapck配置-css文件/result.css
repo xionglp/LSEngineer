@@ -1,0 +1,19 @@
+:-webkit-full-screen {
+  color: aqua;
+}
+
+:-ms-fullscreen {
+  color: aqua;
+}
+
+:fullscreen {
+  color: aqua;
+}
+
+.content {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9jc3MvdGVzdC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRSxXQUFXO0FBQ2I7O0FBRkE7RUFDRSxXQUFXO0FBQ2I7O0FBRkE7RUFDRSxXQUFXO0FBQ2I7O0FBRUE7RUFDRSx5QkFBaUI7S0FBakIsc0JBQWlCO01BQWpCLHFCQUFpQjtVQUFqQixpQkFBaUI7QUFDbkIiLCJmaWxlIjoicmVzdWx0LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIjpmdWxsc2NyZWVuIHtcbiAgY29sb3I6IGFxdWE7XG59XG5cbi5jb250ZW50IHtcbiAgdXNlci1zZWxlY3Q6IG5vbmU7XG59Il19 */

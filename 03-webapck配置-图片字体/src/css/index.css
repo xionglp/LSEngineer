@@ -1,0 +1,19 @@
+@import "./test.css";
+@import "../font//iconfont.css";
+
+/* .bg-image {
+  display: inline-block;
+  background-image: url('../img/nhlt.jpg');
+  background-size: contain;
+} */
+
+.bg-image {
+  display: inline-block;
+  background-image: url('../img/nhlt.jpg');
+  background-size: contain;
+}
+
+.why-iconfont {
+  display: inline-block;
+  color: aqua;
+}

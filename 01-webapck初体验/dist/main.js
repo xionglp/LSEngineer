@@ -1,0 +1,1 @@
+(()=>{var o={880:o=>{o.exports={dateFormat:()=>"2022-01-22",priceFormat:()=>"¥100.00"}}},r={};function t(e){var s=r[e];if(void 0!==s)return s.exports;var a=r[e]={exports:{}};return o[e](a,a.exports,t),a.exports}(()=>{"use strict";const{dateFormat:o,priceFormat:r}=t(880);console.log(30),console.log(200),console.log(o()),console.log(r())})()})();

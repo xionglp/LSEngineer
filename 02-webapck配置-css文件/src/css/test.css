@@ -1,0 +1,13 @@
+.content {
+  /* color: red; */
+  color: #12345678;
+}
+
+:fullscreen {
+  color: aqua;
+}
+
+.content {
+  user-select: none;
+  transition: all 2s ease;
+}
