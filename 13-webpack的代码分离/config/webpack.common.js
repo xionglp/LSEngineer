@@ -8,9 +8,13 @@ const devConfig = require("./webpack.dev")
 
 const commonConfig = {
   devtool: "cheap-module-source-map",
-  entry: "./src/index.js",
+  // entry: "./src/index.js",
+  entry: {
+    mian: "./src/main.js",
+    index: "./src/index.js"
+  },
   output: {
-    filename: "js/bundle.js",
+    filename: "js/[name].bundle.js",
     path: path.resolve(__dirname, "../build")
   },
   resolve: {
