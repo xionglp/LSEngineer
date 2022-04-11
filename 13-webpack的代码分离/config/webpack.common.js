@@ -1,6 +1,8 @@
 const path = require("path");
 const VueLoaderPlugin = require("vue-loader/lib/plugin")
 const HtmlWebpackPlugin = require("html-webpack-plugin")
+const TerserPlugin = require("terser-webpack-plugin")
+
 const { merge } = require("webpack-merge")
 
 const prodConfig = require("./webpack.prod")
@@ -24,6 +26,14 @@ const commonConfig = {
       "pages": path.resolve(__dirname, "../src/pages")
     }
   },
+  // optimization: {
+  //   //对代码进行压缩等操作
+  //   minimizer: [
+  //     new TerserPlugin({
+  //       extractComments: false
+  //     })
+  //   ]
+  // },
   module: {
     rules: [
       {
