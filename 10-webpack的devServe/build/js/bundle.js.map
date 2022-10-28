@@ -1,1 +1,0 @@
-{"version":3,"file":"js/bundle.js","mappings":";;;;;AAAA;AACA;AACA","sources":["webpack://webpack-divserve/./src/index.js"],"sourcesContent":["\n\nconsole.log(\"hello webpack ddd\");"],"names":[],"sourceRoot":""}
